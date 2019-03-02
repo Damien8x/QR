@@ -35,6 +35,16 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        findViewById<Button>(R.id.manage_keys_button).setOnClickListener {
+            val intent = Intent(this, ManageKeys::class.java)
+            startActivity(intent)
+        }
+
+        findViewById<Button>(R.id.Alerts_button).setOnClickListener {
+            val intent = Intent(this, Alerts::class.java)
+            startActivity(intent)
+        }
+
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
