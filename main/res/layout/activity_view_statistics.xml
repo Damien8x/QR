@@ -7,6 +7,69 @@
     tools:context=".ViewStatistics">
 
 
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="338dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="8dp"
+        android:text="Arrival: 08:17:2020:18:16 SW Entrance"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="338dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="44dp"
+        android:text="Interaction:ATM:64343"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="338dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="348dp"
+        android:text="TimePlayed>3600"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="338dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="300dp"
+        android:text="PlayerCardUsed:Slots:WheelOfFortune:50_dollars_entered"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="338dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="260dp"
+        android:text="EmotionalASsessment:intoxicated"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="338dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="228dp"
+        android:text="Interaction:ATM:64343"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="338dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="188dp"
+        android:text="Purchase:whiskey:jack"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
     <Button
         android:id="@+id/manage_keys_button"
         android:layout_width="142dp"
@@ -14,6 +77,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:background="@android:color/transparent"
+        android:text="Add Filter"
         android:textColor="@color/colorPrimaryDark"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -51,5 +115,42 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/privacy_pal" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="132dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="17dp"
+        android:text="Snoqualmie Casino"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="338dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="80dp"
+        android:text="PlayerCardUsed:Slots:GiganticDragon:20_dollars_entered"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="338dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="128dp"
+        android:text="EmotionalAssessment:intoxicated"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="338dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="156dp"
+        android:text="CashOut:5_dollars"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 </android.support.constraint.ConstraintLayout>
